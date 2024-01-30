@@ -11,12 +11,8 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -46,6 +42,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+During the development process I took out time to go through the design and imagine the workflow before implementation.
+
+1. I created my react project
+2. I added my folder structure
+3. Installed packages
+4. Create a Repository
+5. Implementation
+6. Push to github
+7. Edit Readme file
+8. Host Project
+
 ### Built with
 
 - Flexbox
@@ -57,7 +64,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-1. I learnt about the npm classes library
+1. I learnt about the npm classenamenpm package
 
 - It helps make your code more organized in terms of conditionally adding classes, this package handles it in a clear and precise way.
 
@@ -85,9 +92,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Useful resources
 
-- [ lassname package](https://www.npmjs.com/package/classnames) - This helped me add conditonal classes easier and in a clearner manner.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [ classname npm package](https://www.npmjs.com/package/classnames) - This helped me add conditonal classes to my project in a clearner manner.
 
 ## Author
 

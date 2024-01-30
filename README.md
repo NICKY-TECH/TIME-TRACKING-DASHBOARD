@@ -28,8 +28,12 @@ Users should be able to:
 
 Below are screenshots of completed website
 ![DesktopView](./src/resources//images/desktop_view_time_tracking.PNG)
-
+ 1. DESKTOP MODE
 ![](./screenshot.jpg)
+
+2. MOBILE VIEW 
+
+![MOBILEVIEW](./src/resources/images//mobile%20(16).png)
 
 
 

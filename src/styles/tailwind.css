@@ -16,7 +16,7 @@ html {
 }
 
 .main-section{
-  @apply h-screen flex justify-center items-center max-[786px]:h-full bg-transparent max-[786px]:pt-4 max-[786px]:pb-6 flex-col;
+  @apply h-screen flex justify-center items-center max-[786px]:h-full bg-transparent max-[786px]:pt-4 max-[786px]:pb-6 flex-col gap-6;
 }
 
 main {

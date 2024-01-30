@@ -77,7 +77,7 @@ h1{
 }
 
 .card-content{
-    @apply bg-brand-veryDarkBlue   h-[80%] mt-[50px] text-white flex flex-col hover:cursor-pointer hover:bg-brand-darkBlue;
+    @apply bg-brand-veryDarkBlue   h-[80%] mt-[55px] text-white flex flex-col hover:cursor-pointer hover:bg-brand-darkBlue;
     border-radius: 0.9rem;
 }
 

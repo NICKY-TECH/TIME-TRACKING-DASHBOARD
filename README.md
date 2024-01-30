@@ -105,7 +105,7 @@ If you want to run this project locally, follow the steps below:
 
 4. RUN: npm run dev
 
-5. VISIT THE URL BEING DISPLAY ON YOUR TERMINAL
+5. VISIT THE URL DISPLAYED ON YOUR TERMINAL
 
 🎉🎉 YOU HAVE A PROJECT RUNNING LOCALLY !!!
 

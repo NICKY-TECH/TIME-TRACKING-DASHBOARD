@@ -1,10 +1,19 @@
 import "../styles/destination.css";
-import { avatar} from "../../index";
-import Cards from './../components/Card';
+import { avatar, data1, data2 } from "../../index";
+import Cards from "./../components/Card";
+import { useState } from "react";
 
 function Dashboard() {
+  const [selected, setSelected] = useState("weekly");
+  function updateSelected(select) {
+    select.preventDefault()
+  setSelected(()=>{
+    return (select.target.innerHTML).toLowerCase()
+  })
+  }
   return (
-    <main>
+ <section className="main-section">
+     <main>
       <aside>
         <section>
           <div className="avatar">
@@ -19,30 +28,41 @@ function Dashboard() {
           </div>
         </section>
         <ul className="link">
-          <li>
+          <li onClick={(e)=>{
+            updateSelected(e)
+          }}>
             <a href="">Daily</a>
           </li>
-          <li>
+          <li onClick={(e)=>{
+            updateSelected(e)
+          }}>
             <a href="">Weekly</a>
           </li>
-          <li>
-            <a>Monthly</a>
+          <li onClick={(e)=>{
+            updateSelected(e)
+          }}>
+            <a href="">Monthly</a>
           </li>
         </ul>
       </aside>
       <article>
         <div className="top-section">
-        <Cards/>
-        <Cards/>
-        <Cards/>
+          {data1.map((item,index) => {
+return(
+  <Cards img={item.img} title={item.title} key={index} heading={item.timeframes[selected]?.current} subHead={item.timeframes[selected]?.previous}/>
+)
+          })}
         </div>
         <div className="bottom-section">
-      <Cards/>
-      <Cards/>
-      <Cards/>
+        {data2.map((item,index) => {
+return(
+  <Cards img={item.img} title={item.title} key={index} heading={item.timeframes[selected]?.current} subHead={item.timeframes[selected]?.previous}/>
+)
+          })}
         </div>
       </article>
     </main>
+ </section>
   );
 }
 

@@ -58,7 +58,8 @@ During the development process I took out time to go through the design and imag
 - Flexbox
 - CSS Grid
 - [React](https://reactjs.org/) - JS library
-- [TailwindCss](https://tailwindcss.com/) - CSS Framework -[classes](https://www.npmjs.com/package/classnames)- Npm Package for conditionally adding classes
+- [TailwindCss](https://tailwindcss.com/) - CSS Framework
+- [classes](https://www.npmjs.com/package/classnames)- Npm Package for conditionally adding classes
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 

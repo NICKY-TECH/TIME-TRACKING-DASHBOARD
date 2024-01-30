@@ -33,7 +33,7 @@ aside {
 }
 
 article {
-  @apply col-span-8 row-span-1 min-[787px]:gap-7  flex flex-col gap-y-3.5 h-full rounded-lg grid-cols-12 grid-rows-2 max-[786px]:col-span-1 max-[786px]:grid-cols-1;
+  @apply col-span-8 row-span-1 min-[787px]:space-y-3  flex flex-col gap-y-3.5 h-full rounded-lg grid-cols-12 grid-rows-2 max-[786px]:col-span-1 max-[786px]:grid-cols-1;
 }
 
 .link{

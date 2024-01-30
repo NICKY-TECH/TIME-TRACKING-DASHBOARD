@@ -90,6 +90,18 @@ During the development process I took out time to go through the design and imag
 ></div>
 ```
 
+### LOCAL USE
+
+If you want to run this project locally, follow the steps below:
+
+1. Fork Repo
+
+2. Open Project
+
+3. RUN: npm install
+
+4. RUN: npm run dev
+
 ### Useful resources
 
 - [ classname npm package](https://www.npmjs.com/package/classnames) - This helped me add conditonal classes to my project in a clearner manner.

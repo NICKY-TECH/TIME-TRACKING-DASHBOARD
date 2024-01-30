@@ -16,7 +16,7 @@ html {
 }
 
 .main-section{
-  @apply h-screen justify-center items-center max-[786px]:h-full bg-transparent max-[786px]:pt-4 max-[786px]:pb-6;
+  @apply h-screen flex justify-center items-center max-[786px]:h-full bg-transparent max-[786px]:pt-4 max-[786px]:pb-6 flex-col;
 }
 
 main {
@@ -27,7 +27,7 @@ aside {
   @apply col-span-4 row-span-1 bg-brand-darkBlue rounded-lg flex flex-col max-[786px]:col-span-1;
 }
 
-section{
+.aside-section{
     @apply bg-brand-blue rounded-lg w-full flex flex-col gap-6 h-[70%] max-[786px]:pb-5 ;
     font-weight: 300; 
 }
@@ -45,11 +45,11 @@ article {
 }
 
 .top-section {
-  @apply flex gap-4 col-span-12 row-span-1 w-full bg-pink-500 container h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col; 
+  @apply flex gap-4 col-span-12 row-span-1 w-full container h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col; 
 }
 
 .bottom-section {
-  @apply flex gap-4 bg-purple-400 h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col;
+  @apply flex gap-4 h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col;
   color:#bdc1ff;
 }
 

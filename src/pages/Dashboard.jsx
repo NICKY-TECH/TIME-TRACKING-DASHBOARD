@@ -15,7 +15,7 @@ function Dashboard() {
  <section className="main-section">
      <main>
       <aside>
-        <section>
+        <section className="aside-section">
           <div className="avatar">
             <img src={avatar} alt="user-profile-image" className="" />
           </div>

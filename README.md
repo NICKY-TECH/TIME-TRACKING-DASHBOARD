@@ -103,6 +103,8 @@ If you want to run this project locally, follow the steps below:
 
 4. RUN: npm run dev
 
+🎉🎉 YOU HAVE A LOCALLY RUNNING PROJECT!!!
+
 ### Useful resources
 
 - [ classname npm package](https://www.npmjs.com/package/classnames) - This helped me add conditonal classes to my project in a clearner manner.

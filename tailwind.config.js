@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import { exercise } from '>/src';
 
 export default {
   content: ["./src/**/*.{js,jsx,css}"],

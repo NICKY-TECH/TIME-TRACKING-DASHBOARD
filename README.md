@@ -38,7 +38,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Live Site URL: [ATIME-TRACKING-DASHBORAD](https://time-tracking-dashboard-inky-five.vercel.app/)
+- Live Site URL: [TIME-TRACKING-DASHBORAD](https://time-tracking-dashboard-inky-five.vercel.app/)
 
 ## My process
 

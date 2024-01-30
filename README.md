@@ -11,6 +11,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [LOCAL USE](#LOCAL)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 

@@ -28,7 +28,7 @@ aside {
 }
 
 section{
-    @apply bg-brand-blue rounded-lg w-full flex flex-col gap-6 h-[70%]  ;
+    @apply bg-brand-blue rounded-lg w-full flex flex-col gap-6 h-[70%] max-[786px]:pb-5 ;
     font-weight: 300; 
 }
 

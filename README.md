@@ -97,7 +97,7 @@ If you want to run this project locally, follow the steps below:
 
 1. Fork Repo
 
-2. Open Project with any editor of your choice
+2. Open Project with any IDE of your choice
 
 3. Open your terminal
 

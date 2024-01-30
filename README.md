@@ -41,6 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
+
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -57,26 +58,34 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 1. I learnt about the npm classes library
+
 - It helps make your code more organized in terms of conditionally adding classes, this package handles it in a clear and precise way.
 
 ```jsx
-  <div className={classNames("background-wrapper bg-no-repeat bg-right-top",{" bg-Work bg-brand-work":title==="Work"},{"bg-Play bg-brand-play":title==="Play"},{
-      "bg-brand-study bg-Study":title==="Study"
-    },{
-      "bg-Exercise bg-brand-exercise":title==="Exercise"
-    },{
-      "bg-Social bg-brand-social":title==="Social"
-    },{
-      "bg-Self-Care bg-brand-selfCare":title==="Self Care"
+<div
+  className={classNames(
+    "background-wrapper bg-no-repeat bg-right-top",
+    { " bg-Work bg-brand-work": title === "Work" },
+    { "bg-Play bg-brand-play": title === "Play" },
+    {
+      "bg-brand-study bg-Study": title === "Study",
+    },
+    {
+      "bg-Exercise bg-brand-exercise": title === "Exercise",
+    },
+    {
+      "bg-Social bg-brand-social": title === "Social",
+    },
+    {
+      "bg-Self-Care bg-brand-selfCare": title === "Self Care",
     }
-    )} >
-    </div>
+  )}
+></div>
 ```
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [ lassname package](https://www.npmjs.com/package/classnames) - This helped me add conditonal classes easier and in a clearner manner.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

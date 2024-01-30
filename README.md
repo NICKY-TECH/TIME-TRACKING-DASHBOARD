@@ -103,7 +103,7 @@ If you want to run this project locally, follow the steps below:
 
 4. RUN: npm run dev
 
-🎉🎉 YOU HAVE A LOCALLY RUNNING PROJECT!!!
+🎉🎉 YOU HAVE A PROJECT RUNNING LOCALLY !!!
 
 ### Useful resources
 

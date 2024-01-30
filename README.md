@@ -97,11 +97,15 @@ If you want to run this project locally, follow the steps below:
 
 1. Fork Repo
 
-2. Open Project
+2. Open Project with any editor of your choice
+
+3. Open your terminal
 
 3. RUN: npm install
 
 4. RUN: npm run dev
+
+5. VISIT THE URL BEING DISPLAY ON YOUR TERMINAL
 
 🎉🎉 YOU HAVE A PROJECT RUNNING LOCALLY !!!
 

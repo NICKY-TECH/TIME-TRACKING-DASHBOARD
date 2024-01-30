@@ -61,8 +61,6 @@ During the development process I took out time to go through the design and imag
 - [TailwindCss](https://tailwindcss.com/) - CSS Framework
 - [classes](https://www.npmjs.com/package/classnames)- Npm Package for conditionally adding classes
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 1. I learnt about the npm classenamenpm package

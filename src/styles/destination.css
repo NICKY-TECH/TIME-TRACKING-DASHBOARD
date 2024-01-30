@@ -1565,6 +1565,10 @@ video {
   --tw-numeric-spacing: tabular-nums;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
+.text-blue-800{
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
 .text-brand-paleBlue{
   --tw-text-opacity: 1;
   color: rgb(189 193 255 / var(--tw-text-opacity));
@@ -1986,6 +1990,16 @@ h2{
 .sub-head{
   --tw-text-opacity: 1;
   color: rgb(189 193 255 / var(--tw-text-opacity));
+}
+
+footer{
+  --tw-text-opacity: 1;
+  color: rgb(189 193 255 / var(--tw-text-opacity));
+}
+
+footer a{
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .hover\:cursor-pointer:hover{

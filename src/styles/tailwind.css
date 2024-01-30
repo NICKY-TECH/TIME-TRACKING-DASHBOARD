@@ -102,5 +102,13 @@ h2{
   @apply text-brand-paleBlue
 }
 
+footer{
+  @apply text-brand-paleBlue
+}
+
+footer a {
+  @apply text-blue-800
+}
+
 
 

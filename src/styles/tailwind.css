@@ -44,18 +44,10 @@ article {
     @apply list-none text-brand-paleBlue hover:text-white
 }
 
-.top-section {
-  @apply flex gap-4 col-span-12 row-span-1 w-full container h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col; 
-}
 
-.bottom-section {
-  @apply flex gap-4 h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col;
-  color:#bdc1ff;
-}
 
-.background-wrapper{
-  @apply col-span-3 row-span-1 grow rounded-lg
-}
+
+
 
 
 .avatar{
@@ -76,8 +68,22 @@ h1{
   height:auto;
 }
 
+
+.top-section {
+  @apply flex gap-4 col-span-12 row-span-1 w-full container h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col; 
+}
+
+.bottom-section {
+  @apply flex gap-4 h-[50%] max-[786px]:col-span-1 max-[786px]:flex-col ;
+  color:#bdc1ff;
+}
+
+.background-wrapper{
+  @apply col-span-3 row-span-1 grow rounded-lg relative flex justify-center;
+}
+
 .card-content{
-    @apply bg-brand-veryDarkBlue   h-[80%] mt-[55px] text-white flex flex-col hover:cursor-pointer hover:bg-brand-darkBlue;
+    @apply bg-brand-veryDarkBlue absolute bottom-0 w-full text-white flex flex-col hover:cursor-pointer hover:bg-brand-darkBlue h-[70%];
     border-radius: 0.9rem;
 }
 
@@ -103,7 +109,7 @@ h2{
 }
 
 footer{
-  @apply text-brand-paleBlue
+  @apply text-brand-paleBlue flex justify-center
 }
 
 footer a {

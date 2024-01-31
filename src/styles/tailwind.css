@@ -79,7 +79,7 @@ h1{
 }
 
 .card-content{
-    @apply bg-brand-veryDarkBlue   h-[80%] min-[787px]:h-[60%] mt-[55px] text-white flex flex-col hover:cursor-pointer min-[787px]:w-full hover:bg-brand-darkBlue min-[787px]:absolute min-[787px]:bottom-0 ;
+    @apply bg-brand-veryDarkBlue   h-[80%] min-[787px]:h-[80%] mt-[55px] text-white flex flex-col hover:cursor-pointer min-[787px]:w-full hover:bg-brand-darkBlue min-[787px]:absolute min-[787px]:bottom-0 ;
     border-radius: 0.9rem;
 }
 

@@ -105,7 +105,7 @@ h2{
 }
 
 footer{
-  @apply text-brand-paleBlue flex justify-center
+  @apply text-brand-paleBlue min-[787px]:flex min-[787px]:relativejustify-center
 }
 
 footer a {

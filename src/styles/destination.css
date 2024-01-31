@@ -2048,6 +2048,8 @@ h2{
 }
 
 footer{
+  display: flex;
+  justify-content: center;
   --tw-text-opacity: 1;
   color: rgb(189 193 255 / var(--tw-text-opacity));
 }

@@ -79,7 +79,7 @@ h1{
 }
 
 .card-content{
-    @apply bg-brand-veryDarkBlue   h-[80%] min-[787px]:h-[60%] mt-[55px] text-white flex flex-col hover:cursor-pointer hover:bg-brand-darkBlue min-[787px]:absolute min-[787px]:bottom-0 min-[787px]:w-[98%];
+    @apply bg-brand-veryDarkBlue   h-[80%] min-[787px]:h-[60%] mt-[55px] text-white flex flex-col hover:cursor-pointer min-[787px]:w-full hover:bg-brand-darkBlue min-[787px]:absolute min-[787px]:bottom-0 ;
     border-radius: 0.9rem;
 }
 
@@ -105,7 +105,7 @@ h2{
 }
 
 footer{
-  @apply text-brand-paleBlue min-[787px]:flex min-[787px]:relativejustify-center
+  @apply text-brand-paleBlue min-[787px]:flex min-[787px]:relative justify-center
 }
 
 footer a {

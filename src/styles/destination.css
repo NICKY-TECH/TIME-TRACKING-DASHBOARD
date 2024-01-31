@@ -2008,7 +2008,7 @@ h1{
     position: absolute;
     bottom: 0px;
     height: 60%;
-    width: 98%;
+    width: 100%;
   }
 }
 
@@ -2048,10 +2048,17 @@ h2{
 }
 
 footer{
-  display: flex;
   justify-content: center;
   --tw-text-opacity: 1;
   color: rgb(189 193 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 787px){
+
+  footer{
+    position: relative;
+    display: flex;
+  }
 }
 
 footer a{
@@ -2118,8 +2125,8 @@ footer a{
     height: 60%;
   }
 
-  .min-\[787px\]\:w-\[98\%\]{
-    width: 98%;
+  .min-\[787px\]\:w-full{
+    width: 100%;
   }
 
   .min-\[787px\]\:justify-center{
